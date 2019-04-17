@@ -1,0 +1,11 @@
+.base {
+  display: block;
+  transform: rotate(-90deg);
+
+  circle {
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 1s linear;
+    stroke: #eee;
+    stroke-width: 1px;
+  }
+}
