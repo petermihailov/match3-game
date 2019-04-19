@@ -1,0 +1,24 @@
+.base {
+  display: block;
+
+  .progress {
+    transition: stroke-dashoffset .2s ease-out;
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes fade {
+  0%, 40% {
+    stroke-opacity: .5;
+  }
+
+  100% {
+    stroke-opacity: 0;
+  }
+}
