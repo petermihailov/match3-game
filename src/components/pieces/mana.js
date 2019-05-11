@@ -3,7 +3,7 @@ import cn from 'classnames';
 import styles from './piece.scss';
 
 export const Mana = ({className, level = 'low'}) => (
-  <svg className={cn(className, styles[level])} viewBox="0 0 100 85">
+  <svg className={cn(className, styles[level])} viewBox="0 0 100 84">
     <g transform="translate(0 5)">
       <circle className={styles.primary} cx="50.5" cy="36.5" r="39" stroke="#19003E" strokeWidth="5" />
       <path fill="#fff" opacity="0.7"
